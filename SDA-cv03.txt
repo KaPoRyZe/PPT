@@ -1,0 +1,33 @@
+SMART Technologie (ESwin Seagate)
+http://www.seagate.com/gb/en/support/downloads/item/samsung-eswin-master-dl/
+- nabízí inicializaci, scan, diagnostiku externích nebo interních zaøízení
+- mùžeme si pøeèíst informace z extended information a attribute
+-- lze nastavit rozmezí pro skenování (start LBA, end LBA)
+-- po skenu se nám zobrazí hlášení o chybách, které si mùžeme uložit do souboru (pøi ukládání error logu se soubor nevytvoril, musel jsem výsledek skenu zkopírovat ruènì do textového souboru )
+
+     << ESWIN SCAN TEST LOG >> 
+
+ Test Drive         : HDD0 
+ Model Number       : SAMSUNG HD502HJ 
+ Serial Number      : S20BJ90Z808711 
+ Firmware Revision  : 1AJ10001 
+ Total Size         : 465GB 
+ Test Time          : 08:34:45, Thursday October 20 2016 
+ Test Type          : Read Scan ( 0 ~ 9767789 ) 
+ Elapsed Time       : 00:01:06
+
+              Test Result
+ ** Read Test Complete without Error! ** 
+
+- pøi scanu disku máme možnost si vybrat mezi tìmito typy skenu: read all, write all, read random, write random
+
+Zálohování dat (Cobian Backup 11)
+- pøed prvním zálohováním je potøeba vytvoøit novou úlohu
+-- v nové úloze jsou možnosti:  vybrat typ zálohy
+				soubory, které se mají zálohovat
+				naplánovat, v jakém èasovém úseku se mají zálohovat
+				lze pøidat k úkolu prioritu
+				vybrat typ komprese (zip, 7zip)
+- úplná záloha - zálohuje všechny soubory
+- inkrementální - zálohuje všechny soubory od poslední zálohy
+- diferenciální - zálohuje všechny soubory od podlesní plné zálohy

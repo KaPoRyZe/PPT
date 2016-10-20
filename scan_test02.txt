@@ -1,0 +1,13 @@
+     << ESWIN SCAN TEST LOG >> 
+
+ Test Drive         : HDD0 
+ Model Number       : SAMSUNG HD502HJ 
+ Serial Number      : S20BJ90Z808711 
+ Firmware Revision  : 1AJ10001 
+ Total Size         : 465GB 
+ Test Time          : 08:34:45, Thursday October 20 2016 
+ Test Type          : Read Scan ( 0 ~ 9767789 ) 
+ Elapsed Time       : 00:01:06
+
+              Test Result
+ ** Read Test Complete without Error! ** 
